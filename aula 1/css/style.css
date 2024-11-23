@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+}
+
+.caixa-conteiner {
+    display: flex;
+}
+
+.caixa-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+    width: 400px;
+    background-color: #58af9c;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.click-primario {
+    background-color: #58af9c;
+    border-radius: 20px;
+    border:1px solid #ffffff;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    transition: 1.3s;
+    cursor: pointer;    
+}
+
+.click-primario:hover {
+    background-color: #479181;
+}
+
+.caixa-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+    width: 530px;
+    background-color: rgb(255, 255, 255);
+    color: #58af9c;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.text-primario {
+    color: #bdbdbd;
+}
+
+.click-segundario {
+    margin-top: 10px;
+    background-color: #58af9c;
+    border-radius: 20px;
+    border: 1px solid #58af9c;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    transition: 1.3s ease;
+}
+
+.click-segundario:hover {
+    background-color: #479181;
+}
+
+.topo-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bdbdbd;
+    gap: 10px;
+}
+
+.icone {
+    border: 1px solid #bdbdbd;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.campo {
+    background-color: #d8d5d5;
+    padding: 10px;
+    margin: 5px;
+}
+
+.campo input {
+    background-color: #d8d5d5;
+    border: 1px solid #d8d5d5;
+}
+
+.fa-user {
+    color: #a8a8a8;
+}
+
+.fa-lock {
+    color: #a8a8a8;
+}
+
+.fa-envelope {
+    color: #a8a8a8;
+}
+
+input:focus {
+outline: none;
+}
